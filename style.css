@@ -1,0 +1,154 @@
+here
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f1e8;
+    color: #263b32;
+    line-height: 1.7;
+}
+
+header {
+    background: #173c30;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    font-size: 35px;
+    margin-bottom: 8px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e5bd75;
+}
+
+.hero {
+    background: #dfe8d7;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 650px;
+    margin: auto;
+}
+
+.tombol {
+    display: inline-block;
+    background: #bd7545;
+    color: white;
+    padding: 12px 25px;
+    margin-top: 25px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+section {
+    padding: 55px 8%;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#cari {
+    display: block;
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.kartu {
+    background: white;
+    padding: 22px;
+    margin-bottom: 18px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px #00000010;
+}
+
+.kartu h3 {
+    color: #24543f;
+    margin-bottom: 10px;
+}
+
+.kartu button {
+    background: #24543f;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.kartu button:hover {
+    background: #bd7545;
+}
+
+#areaKuis {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    max-width: 650px;
+    margin: auto;
+}
+
+.pilihan {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    background: #f4f1e8;
+    border-radius: 7px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.pilihan:hover {
+    background: #dfe8d7;
+}
+
+footer {
+    background: #173c30;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+@media(max-width:600px) {
+    nav a {
+        display: inline-block;
+        margin: 5px;
+        font-size: 13px;
+    }
+
+    .hero h2 {
+        font-size: 25px;
+    }
+}
